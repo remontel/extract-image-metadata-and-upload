@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+# ignores all .pyc, .pyo, .pyd files, __pycache__ directory, and .class files
+__pycache__/ 
+*.py[cod] 
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+bin/
+include/
+lib/
+
+# Virtual environment configuration file
+pyvenv.cfg
+
+# MacOS files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables file
+.env
+
+# Ignore your service account key file if present
+service-account-key.json
+*.json
+
+# CSV and log outputs (if you don't want to include them)
+*.csv
+error_log.txt
+
+# Image folder and older scripts
+imageAssets/
+oldScripts/
