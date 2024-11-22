@@ -2,9 +2,9 @@
 
 ## Overview
 
-This Python scripts combine metadata extraction and image uploading functionalities. They extracts metadata from images in a specified folder and uploads them to Google Cloud Storage (GCS), generating a CSV file containing the metadata and public URLs of the uploaded images.
+These Python scripts provide metadata extraction and image uploading functionalities. They extract. metadata from images in a specified folder and uploads them to Google Cloud Storage (GCS), generating a CSV file containing the metadata and public URLs of the uploaded images.
 
-This was written for a client who wanted an "art map" of murals they had painted around the world. A shopify app called Progus Store Locator was used to host the map. But there were about 2150 murals that needed to be process. To expedite the process, this script was written to take the location data from the image of the mural, upload the image to a GCS bucket accessible by Progus, and generate a CSV file with the associated location and url address.
+This was written for a client who wanted an "art map" of murals they had painted around the world. A shopify app called Progus Store Locator was used to host the map. There were about 2150 murals that needed to be process. To expedite the process, this script was written to take the location data from the image of the mural, upload the image to a GCS bucket accessible by Progus, and generate a CSV file with the associated location and url address.
 
 ## Features
 
